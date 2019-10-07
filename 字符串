@@ -1,0 +1,17 @@
+public class StartOrEnd {
+	public static void main(String args[]) {
+			String num1="22045612";
+			String num2="21192341";
+			boolean b1=num1.startsWith("22");
+			boolean b2=num2.startsWith("22");
+			boolean b3=num1.endsWith("12");
+			boolean b4=num2.endsWith("19");
+			System.out.println("字符串num1以22开头吗"+b1);
+			System.out.println("字符串num2以22开头吗"+b2);
+			System.out.println("字符串num1以12结尾吗"+b3);
+			System.out.println("字符串num2以19结尾吗"+b4);
+			
+			
+	}
+	
+}
